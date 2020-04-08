@@ -1,0 +1,387 @@
+/*-----------------------------------------------------------------*/
+             /* styling for Mobile/Desktop view */
+/*-----------------------------------------------------------------*/
+#mobile {
+    display: none;
+}
+#desktop {
+    display: inline;
+}
+/*-----------------------------------------------------------------*/
+             /* styling for Home page */
+/*-----------------------------------------------------------------*/
+#home_image{
+	background-image:url(Home/Slide1.jpg);
+    background-size:100%;
+    height:400px;
+
+}
+#welcome_image{
+	background-image:url(Home/welcome.jpg);
+
+
+}
+header{
+	background-image:url(Home/logo.png);
+	background-color: #FFBBDD;
+	background-repeat:no-repeat;
+	color:#A9A9A9;
+	height:90px;
+	}
+	h1{
+		margin-left:100px;
+		padding:20px;
+		color:#FFFAFA;
+		text-align:center;
+	}
+	body{
+	background-image: url(images/background.jpg)
+	}
+
+.mynav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF0074;
+}
+
+.mynav li {
+  float: left;
+  margin-left:60px;
+}
+
+.mynav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.mynav li a:hover {
+  background-color: #111;
+}
+
+body{
+background-color: #FFDDFF;
+font-family:Verdana, Ariel, sans-serif ;
+
+}
+nav a{
+text-decoration: none;
+}
+
+footer{
+	font-style: italic;
+	text-align:center;
+	background-color: #FFBBDD;
+	color:	#F0FFF0;
+	font-size:.60em;
+	padding-bottom:10px;
+	border: 2px solid #F0FFF0;
+	font-size:20px;
+}
+#wrapper_content{
+	  box-shadow: 3px 3px 3px ;
+      background-color: #FFFAFA;
+	  min-width:900px;
+	  max-width:1200px;
+      margin-left: auto;
+      margin-right: auto;
+      }
+ .service_list ul{
+      color: #2F4F4F;
+      font-size:18px;}
+   p{
+
+font-size:20px;
+margin-left:20px;
+margin-right:20px;
+    color: #2F4F4F;
+   }
+   h2{
+   text-align: center;
+    color: #928eb1;
+    font-family:Verdana, Ariel, sans-serif ;
+    font-weight:bold;
+    }
+    .address {
+    margin-left:25px;
+
+    }
+
+    .address p{
+    font-size:18px;
+    margin-left:25px;
+
+    }
+/*-----------------------------------------------------------------*/
+             /* styling for tip page */
+/*-----------------------------------------------------------------*/
+
+#hair1{
+
+
+	background-image:url(Tips/hair.jpg);
+    background-size:100%;
+    height:700px;
+
+}
+#body1{
+
+
+	background-image:url(Tips/body.jpg);
+    background-size:100%;
+    height:700px;
+
+}
+#skin1{
+
+
+	background-image:url(Tips/skin.jpg);
+    background-size:100%;
+    height:700px;
+
+}
+#wax1{
+
+
+	background-image:url(Tips/wax.jpg);
+    background-size:100%;
+    height:700px;
+
+}
+#makeup1{
+	background-image:url(Tips/makeup.jfif);
+    background-size:100%;
+    height:700px;
+
+}
+.tips_heading {
+    font-family:Verdana, Ariel, sans-serif ;
+    color: #056608;
+    text-align:left;
+    margin-left:10px;
+}
+ .tips li{
+    font-family:Verdana, Ariel, sans-serif ;
+    color: #A9A9A9;
+
+ }
+ .remedy{
+ font-family:Verdana, Ariel, sans-serif ;
+ color: #928eb1;
+ line-height:5px;
+ padding 15px,15px;
+ margin-left:200px;
+ margin-right:200px;
+ }
+ #internal_nav a{
+ text-decoration:none;
+ font-size: 20px;
+ font-family:Verdana, Ariel, sans-serif ;
+ color:#FF5500;
+ font-weight:bold;
+ }
+
+  #internal_nav li{
+    font-size: 20px;
+    color: #2F4F4F;
+    }
+    .external_nav a {
+    text-decoration:none;
+    text-align:center;
+    font-size:18px;
+    }
+    .external_nav{
+    text-align:center;
+    }
+ .mylist{
+
+    font-family:Verdana, Ariel, sans-serif ;
+    color: #2F4F4F;
+    font-size:20px;
+ }
+#top {
+
+text-align:right;
+font-weight:bold;
+font-size:20px;
+ color: #989721;
+}
+#top:hover{
+color:#FFDF00;
+}
+
+/*-----------------------------------------------------------------*/
+             /* styling for About us page */
+/*-----------------------------------------------------------------*/
+
+
+
+ .teamimg{
+ 	max-width: 200px; 
+ }
+ .row1{
+ 	margin-top: 30px;
+ 	padding: 20px;
+ 	text-align: center;
+ }
+/*-----------------------------------------------------------------*/
+             /* styling for contact page */
+/*-----------------------------------------------------------------*/
+ input[type=text], textarea {
+
+    margin-top:8px;
+    margin-bottom:15px;
+    width: 100%; /* max width*/
+    padding: 10px; /* padding when typing in*/
+    border: 1px solid #fdab9f; /* text box border and color*/
+    border-radius: 12px; /* Rounded borders */
+    box-sizing: border-box;
+
+
+ }
+ .myinput{
+ width:30;
+ }
+
+.contact {
+   background-color: #fdab9f;
+   color: white;
+   border: none;
+   padding: 15px 15px;
+   border-radius: 12px;
+
+ }
+
+ .contact:hover {
+   background-color: #D4AF37;
+   cursor:pointer;
+ }
+
+
+ #contact_form {
+   padding: 10px 10PX;
+   border-radius: 5px;
+ }
+ .address{
+ font-family:Verdana, Ariel, sans-serif ;
+ font-style:italics;
+ font-size:15px;
+ padding:5px 5px;
+ text-align:left;
+  color: #2F4F4F;
+ }
+ #address_heading{
+ font-family:Verdana, Ariel, sans-serif ;
+ padding:5px 5px;
+ font-size:18px;
+ color:#696969;
+ line-height:0px;
+ font-weight:bold;
+
+ }
+ #form_heading{
+text-align:center;
+ }
+ /*-----------------------------------------------------------------*/
+              /* styling for Booking page */
+ /*-----------------------------------------------------------------*/
+#myDate{
+      margin-top:8px;
+      margin-bottom:15px;
+      width: auto; /* max width*/
+      padding: 10px; /* padding when typing in*/
+      border: 1px solid #fdab9f; /* text box border and color*/
+      border-radius: 12px; /* Rounded borders */
+      box-sizing: border-box;
+}
+.apt{
+margin-top:8px;
+      margin-bottom:15px;
+      width: auto; /* max width*/
+      padding: 10px; /* padding when typing in*/
+      border: 1px solid #fdab9f; /* text box border and color*/
+      border-radius: 12px; /* Rounded borders */
+      box-sizing: border-box;
+}
+
+
+.asterik{
+color:red;
+}
+.visit{
+width:50%;
+}
+
+
+
+
+
+ /*-----------------------------------------------------------------*/
+              /* styling for Timing page */
+ /*-----------------------------------------------------------------*/
+
+table{
+
+	margin-left:40px;
+	width: 90%;
+	border: 0;
+	background-color: #ffbe5;
+}
+td, th {
+	padding:20px 20px;
+	text-align:center;
+	width:50%;
+
+
+
+}
+tr:nth-of-type(odd){
+	background-color:  #cae1ff;
+}
+form{
+	padding: 2em;
+}
+
+/*-----------------------------------------------------------------*/
+              /* styling for service page */
+ /*-----------------------------------------------------------------*/
+#hair_img{
+
+
+	background-image:url(services/hair.jpg);
+    background-size:100%;
+    height:700px;
+
+}
+#body_img{
+
+
+	background-image:url(services/body.jpg);
+    background-size:100%;
+    height:680px;
+
+}
+#skin_img{
+
+
+	background-image:url(services/skin.jfif);
+    background-size:100%;
+    height:600px;
+
+}
+#wax_img{
+	background-image:url(services/wax.jpg);
+    background-size:100%;
+    height:750px;
+
+}
+#makeup_img{
+	background-image:url(services/makeup.jpg);
+    background-size:100%;
+    height:700px;
+
+}

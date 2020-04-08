@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  -->
+<head>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
+    <![endif]-->
+    <meta charset="UTF-8">
+    <title>Daisy Saloon</title>
+    <!-- for mobile or desktop view  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- external style sheet -->
+    <link href="saloon.css" type ="text/css" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+<div id="wrapper_content">
+    <!-- Main Heading -->
+    <header>
+        <h1>Daisy Beauty Salon</h1>
+    </header>
+    <!--  navigation to internla hyperlinks -->
+
+    <nav  >
+        <ul class="mynav">
+            <li><a href=" index.html">HOME</a> </li>
+            <li><a href="service.html">SERVICE</a></li>
+            <li><a href="tips.html">TIPS</a></li>
+            <li><a href="timings.html">TIMINGS</a></li>
+            <li><a href="booking.html">BOOKING</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main>
+        <h2 id=" from_heading">Contact Form </h2>
+        <p>Feel free to contact us if you have any additional questions/concerns regarding our services.Required fields marked with an asterik*</p>
+        <div id="contact_form">
+            <form action="action_page.php">
+
+                <label for="first_name">*First Name</label>
+                <input type="text" id="first_name" name="firstname" placeholder="Enter your first name" required="required">
+
+                <label for="last_name">*Last Name</label>
+                <input type="text" id="last_name" name="lastname" placeholder="Enter your last name" required="required">
+
+                <label for="phone">*Phone Number</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required="required">
+
+                <label for="Message">*Message</label>
+                <textarea id="message" name="Message" placeholder="Type your message..." style="height:150px" required="required"></textarea>
+
+                <button class="contact" type="send" value="send message">Send Message</button>
+
+            </form>
+
+        <br></br>
+        <h3 id="address_heading">CONTACT US:</h3>
+        <div class="address">
+            <address><p>54321 Route 42
+                <br>
+                Elison Bay, WI 54210
+                <br>
+                <a href="admin@daisy.net">admin@daisy.net</a><br>
+                <a id="mobile" href="tel:(517) 555-3717">(517) 555-3717</a>
+                <span id="desktop">(517) 555-3717</span><br>
+                <br></p>
+            </address>
+        </div>
+        </div>
+
+    </main>
+
+    <br></br>
+
+    <footer>
+        Copyright &copy; 2020 Amara_Afzal<br>
+        <a href="mailto:afzal@mail.lcc.edu">afzala@mail.lcc.edu</a>
+    </footer>
+
+
+
+</div>  <!-- container -->
+</body>
+</html>
