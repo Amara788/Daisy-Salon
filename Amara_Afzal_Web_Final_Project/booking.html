@@ -8,7 +8,7 @@
     <!-- for mobile or desktop view  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- external style sheet -->
-    <link href="saloon.css" type ="text/css" rel="stylesheet">
+    <link href="saloon.css" type="text/css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -26,9 +26,9 @@
     </header>
     <!--  navigation to internla hyperlinks -->
 
-    <nav  >
+    <nav>
         <ul class="mynav">
-            <li><a href=" index.html">HOME</a> </li>
+            <li><a href=" index.html">HOME</a></li>
             <li><a href="service.html">SERVICE</a></li>
             <li><a href="tips.html">TIPS</a></li>
             <li><a href="timings.html">TIMINGS</a></li>
@@ -39,23 +39,23 @@
     </nav>
 
 
-
     <main>
-    <p>Please, fill out the following form below in order to make an appointment with us. Required fiedls marked with an asterik<span class="asterik">*</span></p>
+        <p>Please, fill out the following form below in order to make an appointment with us. Required fiedls marked
+            with an asterik<span class="asterik">*</span></p>
         <div id="contact_form">
             <form action="action_page.php">
 
 
-<!--                <label for="name"><p class="asterik">*<p>Full Name</label>-->
+                <!--                <label for="name"><p class="asterik">*<p>Full Name</label>-->
                 <label for="name"><span class="asterik">*</span>Full Name</label>
                 <input type="text" id="name" name="name" placeholder="Enter your fulll name" required="required">
                 <label for="phone"><span class="asterik">*</span>Phone Number</label>
                 <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required="required">
-                <label for="myDate" ><span class="asterik">*</span>Choose a Date</label>
+                <label for="myDate"><span class="asterik">*</span>Choose a Date</label>
                 <input type="date" name="myDate" id="myDate" required="required">
                 <br></br>
                 <label for="apt"><span class="asterik">*</span>Select a time</label>
-                <input type="time" id="apt" name="apt" required="required" >
+                <input type="time" id="apt" name="apt" required="required">
                 <br><br>
                 <label for="visit"><span class="asterik">*</span>Reason for visit</label>
 
@@ -68,49 +68,43 @@
                 </select>
 
                 <br></br>
-                <label ><span class="asterik">*</span>Address Line</label>
+                <label><span class="asterik">*</span>Address Line</label>
                 <input type="text" id="adress" name="adress" placeholder="Enter your address" required="required">
                 <br></br>
 
-<!--                <div class="row row1">-->
-<!--                    <div class="col col-md-3" ><label>City <input class= " myinput" type="text" name="city" id="city "></label></div>-->
-<!--                    <div class="col col-md-3" ><label>State <input class= " myinput" type="text" name="state" id="state " max-lenght="5" size="2"></label></div>-->
+                <!--                <div class="row row1">-->
+                <!--                    <div class="col col-md-3" ><label>City <input class= " myinput" type="text" name="city" id="city "></label></div>-->
+                <!--                    <div class="col col-md-3" ><label>State <input class= " myinput" type="text" name="state" id="state " max-lenght="5" size="2"></label></div>-->
 
-<!--                    <div class="col col-md-3" > <label>Zipcode<input  type="number" width="48" name="zip" id="zip" max-lenght="5" size="5"></label></div>-->
+                <!--                    <div class="col col-md-3" > <label>Zipcode<input  type="number" width="48" name="zip" id="zip" max-lenght="5" size="5"></label></div>-->
 
-<!--                </div>-->
+                <!--                </div>-->
 
-                <label ><span class="asterik">*</span>City</label>
+                <label><span class="asterik">*</span>City</label>
                 <input type="text" id="city" name="city" placeholder="City" required="required">
-                <label ><span class="asterik">*</span>State</label>
+                <label><span class="asterik">*</span>State</label>
                 <input type="text" id="state" name="state" placeholder="State" required="required">
-                <label ><span class="asterik">*</span>Zipcode</label>
+                <label><span class="asterik">*</span>Zipcode</label>
                 <input type="text" id="zipcode" name="Zipcode" placeholder="Zipcode" required="required">
 
 
-                <label ><span class="asterik">*</span>Make a payment</label>
+                <label><span class="asterik">*</span>Make a payment</label>
                 <input type="text" id="payment" name="payment" placeholder="Make a payment" required="required">
 
 
+                <!--                <label for="visit" >*Reason for visit</label>-->
+                <!--                <input type="text" name="visit" id="visit" list="reason">-->
+                <!--               /* <select size="5" name="jumpmenu" id="jumpmenu">-->
+                <!--                    <datalist id="reason">-->
+                <!--                    <option value="Hair Care Treatment">-->
+                <!--                    <option value="Skin Care Treatment">-->
+                <!--                    <option value="Body Care Treatment">-->
+                <!--                    <option value="Makeup">-->
+                <!--                    <option value="Wax">-->
+                <!--                    </datalist> */-->
 
 
-
-
-
-<!--                <label for="visit" >*Reason for visit</label>-->
-<!--                <input type="text" name="visit" id="visit" list="reason">-->
-<!--               /* <select size="5" name="jumpmenu" id="jumpmenu">-->
-<!--                    <datalist id="reason">-->
-<!--                    <option value="Hair Care Treatment">-->
-<!--                    <option value="Skin Care Treatment">-->
-<!--                    <option value="Body Care Treatment">-->
-<!--                    <option value="Makeup">-->
-<!--                    <option value="Wax">-->
-<!--                    </datalist> */-->
-
-
-<!--                </select>-->
-
+                <!--                </select>-->
 
 
                 <button class="contact" type="send" value="send message">Book Appointment</button>
@@ -119,7 +113,8 @@
         </div>
 
         <p><b>Note:</b> Please, note your bookings shall be confirmed after a deposit of 50% is made after visiting us
-        in person or through online to ensure a calm environment.It's requested to come on your specified slots, no atendees allowed for safety purposes. </p>
+            in person or through online to ensure a calm environment.It's requested to come on your specified slots, no
+            atendees allowed for safety purposes. </p>
 
 
     </main>
@@ -130,7 +125,6 @@
         Copyright &copy; 2020 Amara_Afzal<br>
         <a href="mailto:afzal@mail.lcc.edu">afzala@mail.lcc.edu</a>
     </footer>
-
 
 
 </div>  <!-- container -->
