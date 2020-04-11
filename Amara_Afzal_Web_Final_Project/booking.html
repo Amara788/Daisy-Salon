@@ -41,7 +41,7 @@
 
 
     <main>
-    <p>Please, fill out the following form below in order to make an appointment with us. Required fiedls marked with an asterik*</p>
+    <p>Please, fill out the following form below in order to make an appointment with us. Required fiedls marked with an asterik<span class="asterik">*</span></p>
         <div id="contact_form">
             <form action="action_page.php">
 
@@ -49,15 +49,15 @@
 <!--                <label for="name"><p class="asterik">*<p>Full Name</label>-->
                 <label for="name"><span class="asterik">*</span>Full Name</label>
                 <input type="text" id="name" name="name" placeholder="Enter your fulll name" required="required">
-                <label for="phone">*Phone Number</label>
+                <label for="phone"><span class="asterik">*</span>Phone Number</label>
                 <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required="required">
-                <label for="myDate" >*Choose a Date</label>
+                <label for="myDate" ><span class="asterik">*</span>Choose a Date</label>
                 <input type="date" name="myDate" id="myDate" required="required">
                 <br></br>
-                <label for="apt">*Select a time</label>
+                <label for="apt"><span class="asterik">*</span>Select a time</label>
                 <input type="time" id="apt" name="apt" required="required" >
                 <br><br>
-                <label for="visit">*Reason for visit</label>
+                <label for="visit"><span class="asterik">*</span>Reason for visit</label>
 
                 <select id="visit">
                     <option value="Hair Care Treatment">Hair Care Treatment</option>
@@ -68,22 +68,27 @@
                 </select>
 
                 <br></br>
-                <label >*Address Line</label>
+                <label ><span class="asterik">*</span>Address Line</label>
                 <input type="text" id="adress" name="adress" placeholder="Enter your address" required="required">
                 <br></br>
 
-                <div class="row row1">
-                    <div class="col col-md-3" ><label>City <input class= " myinput" type="text" name="city" id="city "></label></div>
-                    <div class="col col-md-3" ><label>State <input class= " myinput" type="text" name="state" id="state " max-lenght="5" size="2"></label></div>
+<!--                <div class="row row1">-->
+<!--                    <div class="col col-md-3" ><label>City <input class= " myinput" type="text" name="city" id="city "></label></div>-->
+<!--                    <div class="col col-md-3" ><label>State <input class= " myinput" type="text" name="state" id="state " max-lenght="5" size="2"></label></div>-->
 
-                    <div class="col col-md-3" > <label>Zipcode<input  type="number" width="48" name="zip" id="zip" max-lenght="5" size="5"></label></div>
+<!--                    <div class="col col-md-3" > <label>Zipcode<input  type="number" width="48" name="zip" id="zip" max-lenght="5" size="5"></label></div>-->
 
-                </div>
+<!--                </div>-->
+
+                <label ><span class="asterik">*</span>City</label>
+                <input type="text" id="city" name="city" placeholder="City" required="required">
+                <label ><span class="asterik">*</span>State</label>
+                <input type="text" id="state" name="state" placeholder="State" required="required">
+                <label ><span class="asterik">*</span>Zipcode</label>
+                <input type="text" id="zipcode" name="Zipcode" placeholder="Zipcode" required="required">
 
 
-
-
-                <label >*Make a payment</label>
+                <label ><span class="asterik">*</span>Make a payment</label>
                 <input type="text" id="payment" name="payment" placeholder="Make a payment" required="required">
 
 

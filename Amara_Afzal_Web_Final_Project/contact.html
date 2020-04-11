@@ -41,20 +41,20 @@
 
     <main>
         <h2 id=" from_heading">Contact Form </h2>
-        <p>Feel free to contact us if you have any additional questions/concerns regarding our services.Required fields marked with an asterik*</p>
+        <p>Feel free to contact us if you have any additional questions/concerns regarding our services.Required fields marked with an asterik<span class="asterik">*</span></p>
         <div id="contact_form">
             <form action="action_page.php">
 
-                <label for="first_name">*First Name</label>
+                <label for="first_name"><span class="asterik">*</span>First Name</label>
                 <input type="text" id="first_name" name="firstname" placeholder="Enter your first name" required="required">
 
-                <label for="last_name">*Last Name</label>
+                <label for="last_name"><span class="asterik">*</span>Last Name</label>
                 <input type="text" id="last_name" name="lastname" placeholder="Enter your last name" required="required">
 
-                <label for="phone">*Phone Number</label>
+                <label for="phone"><span class="asterik">*</span>Phone Number</label>
                 <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required="required">
 
-                <label for="Message">*Message</label>
+                <label for="Message"><span class="asterik">*</span>Message</label>
                 <textarea id="message" name="Message" placeholder="Type your message..." style="height:150px" required="required"></textarea>
 
                 <button class="contact" type="send" value="send message">Send Message</button>
