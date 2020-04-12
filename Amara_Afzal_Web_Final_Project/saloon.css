@@ -12,22 +12,36 @@
              /* styling for Home page */
 /*-----------------------------------------------------------------*/
 #home_image{
-	background-image:url(Home/Slide1.jpg);
+	width:0;
+	image-repeat: none;
+	position:cover;
     background-size:100%;
-    height:400px;
+  height:400px;
 
+}
+.myimg{
+align: center;
 }
 
 #ty_img{
-	background-image:url(Home/ty.gif);
+
+	height:auto;
+	align:center;
     background-size:100%;
     margin-top:40px;
     margin-bottom:25px;
-    height:300px;
-    margin-left:300px;
-    margin-right:300px;
+
+
     }
 
+@media only screen and (max-width: 600px) {
+  .myimg {
+
+   max-width:250px;
+
+  }
+
+}
 #w_image{
     background-image:url(Home/w.jpg);
     }
@@ -96,7 +110,7 @@ footer{
 #wrapper_content{
 	  box-shadow: 3px 3px 3px ;
       background-color: #FFFAFA;
-	  min-width:900px;
+
 	  max-width:1200px;
       margin-left: auto;
       margin-right: auto;
@@ -134,35 +148,17 @@ footer{
              /* styling for tip page */
 /*-----------------------------------------------------------------*/
 
-#hair1{
-	background-image:url(Tips/hair.jpg);
-    background-size:100%;
-    height:700px;
+.fullwidthimage{
+height:auto;
+width:100%;
 }
 
-#body1{
-	background-image:url(Tips/body.jpg);
-    background-size:100%;
-    height:700px;
-}
 
-#skin1{
-	background-image:url(Tips/skin.jpg);
-    background-size:100%;
-    height:700px;
-}
 
-#wax1{
-	background-image:url(Tips/wax.jpg);
-    background-size:100%;
-    height:700px;
-}
 
-#makeup1{
-	background-image:url(Tips/makeup.jfif);
-    background-size:100%;
-    height:700px;
-}
+
+
+
 
 .tips_heading {
     font-family:Verdana, Ariel, sans-serif ;
@@ -181,8 +177,8 @@ footer{
     color: #928eb1;
     line-height:5px;
     padding 15px,15px;
-    margin-left:200px;
-    margin-right:200px;
+   text-align:center;
+   margin-left:0px;
  }
 
  #internal_nav a{
@@ -331,8 +327,9 @@ footer{
 
 table{
 
-	margin-left:40px;
+	padding:3%;
 	width: 90%;
+
 	border: 0;
 	background-color: #ffbe5;
 }
@@ -353,37 +350,20 @@ form{
 /*-----------------------------------------------------------------*/
               /* styling for service page */
  /*-----------------------------------------------------------------*/
-#hair_img{
-	background-image:url(services/hair.jpg);
-    background-size:100%;
-    height:700px;
-}
 
-#body_img{
-	background-image:url(services/body.jpg);
-    background-size:100%;
-    height:680px;
-}
 
-#skin_img{
-	background-image:url(services/skin.jfif);
-    background-size:100%;
-    height:600px;
-}
 
-#wax_img{
-	background-image:url(services/wax.jpg);
-    background-size:100%;
-    height:750px;
-}
 
-#makeup_img{
-	background-image:url(services/makeup.jpg);
-    background-size:100%;
-    height:700px;
-}
 
 .service_list{
     color: #2F4F4F;
     font-size:17px;
+}
+@media only screen and (max-width: 600px) {
+  #wrapper_content {
+
+    width:375px;
+
+  }
+
 }
