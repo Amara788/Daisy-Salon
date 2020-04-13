@@ -2,17 +2,22 @@
 <html lang="en">
 <!--  -->
 <head>
-
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
+    <![endif]-->
     <meta charset="UTF-8">
     <title>Daisy Saloon</title>
     <!-- for mobile or desktop view  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- external style sheet -->
     <link href="saloon.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
 
 </head>
 
@@ -21,22 +26,28 @@
 <div id="wrapper_content">
     <!-- Main Heading -->
     <header>
-        <h1>Daisy Beauty Salon</h1>
+        <div class="row">
+            <div class="col-md-2"><center><img class="logoimg" src="Home/logo.png"></center></div>
+            <div class="col-md-10"> <h1 class="title">Daisy Beauty Salon</h1></div>
+        </div>
     </header>
     <!--  navigation to internla hyperlinks -->
 
     <nav>
-        <ul class="mynav">
-            <li><a href=" index.html">HOME</a></li>
-            <li><a href="service.html">SERVICE</a></li>
-            <li><a href="tips.html">TIPS</a></li>
-            <li><a href="timings.html">TIMINGS</a></li>
-            <li><a href="booking.html">BOOKING</a></li>
-            <li><a href="about.html">ABOUT US</a></li>
-            <li><a href="contact.html">CONTACT US</a></li>
-        </ul>
+        <div class="mynav" id="myTopnav">
+            <a href=" index.html">HOME</a>
+            <a href="service.html">SERVICE</a>
+            <a href="tips.html">TIPS</a>
+            <a href="timings.html">TIMINGS</a>
+            <a href="booking.html">BOOKING</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="contact.html">CONTACT US</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            </ul>
+        </div>
     </nav>
-
 
     <main>
 
@@ -93,5 +104,15 @@
 
 
 </div>  <!-- container -->
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "mynav") {
+    x.className += " responsive";
+  } else {
+    x.className = "mynav";
+  }
+}
+</script>
 </body>
 </html>
