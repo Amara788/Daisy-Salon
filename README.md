@@ -1,3 +1,3 @@
 # Daisy Salon
 ## Author Name: Amara Afzal
-A website created for Daisy Salon
+A static website created for salon services
